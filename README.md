@@ -12,14 +12,14 @@ Pada bagian ini, kita membuat file dengan nama `script.js` untuk menampilkan tul
 document.getElementById("pesan").textContent = "Hello World";
 console.log("Hello World");
 ```
-![Gambar 1](d:\Labs\Lab5Web\ss\ss1.png)
+![Gambar 1](ss/ss1.png)
 
 **Penjelasan:**
 - `document.getElementById("pesan")` digunakan untuk mencari elemen HTML yang memiliki ID `pesan`.
 - `textContent` digunakan untuk mengubah teks yang ditampilkan pada halaman web.
 - `console.log()` digunakan untuk menampilkan pesan pada Console browser.
-![Gambar 2](d:\Labs\Lab5Web\ss\output1.png)
-![Gambar 3](d:\Labs\Lab5Web\ss\output1(2).png)
+![Gambar 2](ss/output1.png)
+![Gambar 3](ss/output1(2).png)
 
 ## 2. Alert dan Prompt
 
@@ -29,7 +29,7 @@ Pada bagian ini, kita belajar menerima input nama pengguna dan menampilkan pesan
 let nama = prompt("Masukkan nama Anda:");
 alert("Halo, " + nama + "!");
 ```
-![Gambar 4](d:\Labs\Lab5Web\ss\ss2.png)
+![Gambar 4](ss/ss2.png)
 
 **Penjelasan:**
 - `let nama` digunakan untuk membuat variabel untuk menyimpan nama.
@@ -38,7 +38,7 @@ alert("Halo, " + nama + "!");
 - Tanda `+` digunakan untuk menggabungkan teks dengan nama yang dimasukkan.
 
 Contohnya, jika kita memasukkan nama Meylla Intan Kurnia, maka akan muncul pesan:
-![Gamabar 5](d:\Labs\Lab5Web\ss\output2.png)
+![Gamabar 5](ss/output2.png)
 `Halo, Meylla Intan Kurnia!`
 
 ## 3. Function dan Operasi Aritmatika
@@ -54,13 +54,13 @@ function penjumlahan(a, b) {
 
 console.log(penjumlahan(10, 5));
 ```
-![Gambar 6](d:\Labs\Lab5Web\ss\ss3.png)
+![Gambar 6](ss/ss3.png)
 
 **Penjelasan:**
 - `function penjumlahan(a, b)` digunakan untuk membuat fungsi penjumlahan.
 - `return a + b` digunakan untuk mengembalikan hasil penjumlahan dua angka.
 - `console.log()` digunakan untuk menampilkan hasilnya.
-![Gambar 7](d:\Labs\Lab5Web\ss\output3.png)
+![Gambar 7](ss/output3.png)
 
 ## 4. Seleksi Kondisi If-Else
 
@@ -77,21 +77,21 @@ if (nilai >= 60) {
     console.log("Tidak Lulus");
 }
 ```
-![Gambar 8](d:\Labs\Lab5Web\ss\ss4.png)
+![Gambar 8](ss/ss4.png)
 
 **Penjelasan:**
 - `let nilai = 75` digunakan untuk menyimpan nilai.
 - `if (nilai >= 60)` memeriksa apakah nilai lebih besar atau sama dengan 60.
 - `console.log("Lulus")` dijalankan jika kondisi benar.
 - `else` dijalankan jika kondisi salah.
-![Gambar 9](d:\Labs\Lab5Web\ss\output4.png)
-![Gambar 10](d:\Labs\Lab5Web\ss\output4(2).png)
+![Gambar 9](ss/output4.png)
+![Gambar 10](ss/output4(2).png)
 Karena nilai yang dimasukkan adalah 100, maka hasilnya adalah `Lulus`.
 
 ## 5. Seleksi Kondisi Switch
 
 `switch` adalah struktur kondisi dalam JavaScript yang digunakan untuk memilih satu tindakan dari beberapa pilihan berdasarkan nilai suatu variabel.
-![Gambar 11](d:\Labs\Lab5Web\ss\ss5.png)
+![Gambar 11](ss/ss5.png)
 **Penjelasan:**
 - `let` digunakan untuk menyimpan nomor.
 - `switch` digunakan untuk memeriksa nilai variabel.
@@ -101,8 +101,8 @@ Karena nilai yang dimasukkan adalah 100, maka hasilnya adalah `Lulus`.
 - `console.log()` digunakan untuk menampilkan hasil pada Console browser.
 
 **Hasil yang ditampilkan:**
-![Gambar 12](d:\Labs\Lab5Web\ss\output5.png)
-![Gambar 13](d:\Labs\Lab5Web\ss\output5(2).png)
+![Gambar 12](ss/output5.png)
+![Gambar 13](ss/output5(2).png)
 ```text
 bilangan 3
 ```
