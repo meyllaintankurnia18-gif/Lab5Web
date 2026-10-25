@@ -1,0 +1,46 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<h1>Pengenalan JavaScript</h1>
+<p id="pesan">Konten awal.</p>   
+<script src="script.js"></script>
+
+<label for="bilangan">Masukkan bilangan bulat:</label>
+<input type="number" id="bilangan" step="1">
+<button type="button" onclick="cekBilangan()">periksa</button>
+<p id="hasilBilangan"></p>
+
+<button type="button" onclick="ubahWarnaLatar('lightgreen')">Latar Hijau</button>
+<button type="button" onclick="ubahWarnaLatar('white')">Latar Putih</button>
+<button type="button" onclick="ubahWarnaLatar('lightyellow')">Latar Kuning</button>
+
+<h3>Daftar Menu Makanan</h3>
+<label><input type="checkbox" class="menu" value="5000"> Ayam Goreng — Rp5.000</label><br>
+<label><input type="checkbox" class="menu" value="500"> Tempe — Rp500</label><br>
+<label><input type="checkbox" class="menu" value="2500"> Telur Dadar — Rp2.500</label><br>
+<button type="button" onclick="hitungTotal()">Total</button>
+<p>Total: Rp<span id="total"></span></p>
+
+<hr>
+    <h3>Kalkulator Nilai Mahasiswa</h3>
+    <label>Tugas (30%) : <input type="number" id="tugas" value=""></label><br>
+    <label>UTS (30%) : <input type="number" id="uts" value=""></label><br>
+    <label>UAS (40%) : <input type="number" id="uas" value=""></label><br>
+    <button id="btnHitung" onclick="tampilkanNilai()">Hitung </button>
+
+    <div id="hasilNilai" style="margin-top:10px; background:#eee; padding:none;">
+        <p>Nilai Akhir : <b><span id="outAkhir">0</span></b></p>
+        <p>Predikat : <b><span id="outPredikat">-</span></b></p>
+        <p>Status : <b><span id="outStatus">-</span></b></p>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
